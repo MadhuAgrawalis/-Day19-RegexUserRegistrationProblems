@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Text.RegularExpressions;
+
+namespace ReGex_UserRegistration
+{
+    public class UC1_EnterFirstName
+    {
+        public string Regex_Pattern = "^[A-Za-z]{3,}$";
+
+        public bool validateFirstName(string FirstName)
+        {
+            return Regex.IsMatch(FirstName, Regex_Pattern);
+        }
+    }
+}
