@@ -49,7 +49,7 @@ namespace ReGex_UserRegistration
                             Console.WriteLine("Valid Email");
                         else
                             Console.WriteLine("InValid Email");
-                        break;*/
+                        break;
                     case 4:
                         Console.WriteLine("Enter the PhoneNumber: ");
                         string Name3 = Console.ReadLine();
@@ -60,9 +60,9 @@ namespace ReGex_UserRegistration
                             Console.WriteLine("Valid Number");
                         else
                             Console.WriteLine("InValid Number");
-                        break;
+                        break;*/
 
-                    /* case 5:
+                    case 5:
                         Console.WriteLine("Enter the Password: ");
                         string Name4 = Console.ReadLine();
                         UC5_EnterPreDefinedPassword uC5_EnterPreDefinedPassword = new UC5_EnterPreDefinedPassword();
@@ -73,7 +73,7 @@ namespace ReGex_UserRegistration
                         else
                             Console.WriteLine("InValid Password");
                         break;
-                    case 6:
+                   /* case 6:
                         Console.WriteLine("Enter the Password: ");
                         string Name5 = Console.ReadLine();
                         UC6_Password_Rule_2 uC6_Password = new UC6_Password_Rule_2();
