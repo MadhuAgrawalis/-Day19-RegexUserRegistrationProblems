@@ -39,7 +39,7 @@ namespace ReGex_UserRegistration
                             Console.WriteLine("InValid Name");
                         break;
 
-                   /* case 3:
+                    case 3:
                         Console.WriteLine("Enter the Email: ");
                         string Name2 = Console.ReadLine();
                         UC3_EnterEmail uC3_EnterEmail = new UC3_EnterEmail();
@@ -50,7 +50,7 @@ namespace ReGex_UserRegistration
                         else
                             Console.WriteLine("InValid Email");
                         break;
-                    case 4:
+                   /* case 4:
                         Console.WriteLine("Enter the PhoneNumber: ");
                         string Name3 = Console.ReadLine();
                         UC4_EnterPhoneNumber uC4_EnterPhoneNumber = new UC4_EnterPhoneNumber();
