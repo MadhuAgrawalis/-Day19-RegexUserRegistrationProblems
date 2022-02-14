@@ -60,7 +60,7 @@ namespace ReGex_UserRegistration
                             Console.WriteLine("Valid Number");
                         else
                             Console.WriteLine("InValid Number");
-                        break;*/
+                        break;
 
                     case 5:
                         Console.WriteLine("Enter the Password: ");
@@ -72,8 +72,8 @@ namespace ReGex_UserRegistration
                             Console.WriteLine("Valid Password");
                         else
                             Console.WriteLine("InValid Password");
-                        break;
-                   /* case 6:
+                        break;*/
+                   case 6:
                         Console.WriteLine("Enter the Password: ");
                         string Name5 = Console.ReadLine();
                         UC6_Password_Rule_2 uC6_Password = new UC6_Password_Rule_2();
@@ -84,7 +84,7 @@ namespace ReGex_UserRegistration
                         else
                             Console.WriteLine("InValid Password");
                         break;
-                    case 7:
+                   /* case 7:
                         Console.WriteLine("Enter the Password: ");
                         string Name6 = Console.ReadLine();
                         UC7_Password_Rule_03 uC7_Password_Rule_03 = new UC7_Password_Rule_03();
