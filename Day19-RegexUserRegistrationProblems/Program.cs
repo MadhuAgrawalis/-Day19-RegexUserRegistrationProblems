@@ -83,7 +83,7 @@ namespace ReGex_UserRegistration
                             Console.WriteLine("Valid Password");
                         else
                             Console.WriteLine("InValid Password");
-                        break;*/
+                        break;
                    case 7:
                         Console.WriteLine("Enter the Password: ");
                         string Name6 = Console.ReadLine();
@@ -94,8 +94,8 @@ namespace ReGex_UserRegistration
                             Console.WriteLine("Valid Password");
                         else
                             Console.WriteLine("InValid Password");
-                        break;
-                    /*case 8:
+                        break;*/
+                    case 8:
                         Console.WriteLine("Enter the Password: ");
                         string Name7 = Console.ReadLine();
                         UC8_Password_Rule_04 uC8_Password_Rule_04 = new UC8_Password_Rule_04();
@@ -106,7 +106,7 @@ namespace ReGex_UserRegistration
                         else
                             Console.WriteLine("InValid Password");
                         break;
-                    case 9:
+                   /* case 9:
                         Console.WriteLine("Enter the Email: ");
                         string Name8 = Console.ReadLine();
                         UC9_CheckDifferentEmail uC9_CheckDifferentEmail = new UC9_CheckDifferentEmail();
