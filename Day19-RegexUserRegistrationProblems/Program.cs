@@ -15,7 +15,7 @@ namespace ReGex_UserRegistration
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
-                    case 1:
+                    /*case 1:
                         Console.WriteLine("Enter the First Name: ");
                         string Name = Console.ReadLine();
                         UC1_EnterFirstName uC1_EnterFirstName = new UC1_EnterFirstName();
@@ -25,9 +25,9 @@ namespace ReGex_UserRegistration
                             Console.WriteLine("Valid Name");
                         else
                             Console.WriteLine("InValid Name");
-                        break;
+                        break;*/
 
-                   /*  case 2:
+                     case 2:
                         Console.WriteLine("Enter the Last Name: ");
                         string Name1 = Console.ReadLine();
                         UC2_EnterLastName uC2_EnterLastName = new UC2_EnterLastName();
@@ -39,7 +39,7 @@ namespace ReGex_UserRegistration
                             Console.WriteLine("InValid Name");
                         break;
 
-                    case 3:
+                   /* case 3:
                         Console.WriteLine("Enter the Email: ");
                         string Name2 = Console.ReadLine();
                         UC3_EnterEmail uC3_EnterEmail = new UC3_EnterEmail();
